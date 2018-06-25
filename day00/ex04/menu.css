@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#menu {
+  text-align: center;
+  width: 100%;
+}
+
+#nav ul {
+  position: absolute;
+  margin:0;
+  padding: 0;
+  list-style-type:none;
+  background-color: black;
+}
+
+#nav ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+#nav ul li a {
+  padding: 20px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+#nav ul li a:hover {
+  color: black;
+  background-color: yellow;
+}
+
+#nav ul li ul li {
+  display: none;
+}
+
+#nav ul li:hover ul li {
+  display: block;
+}
+
+#beignet ul {
+  display: none;
+}
+
+#beignet:hover ul {
+  margin-left: 95px;
+  margin-top: -59px;
+  display: block;
+}

@@ -1,0 +1,4 @@
+<- Vertex ----------------------------------------------------------------------
+This Class handles vertexes with homogeneous coordinates (x, y, z and w)
+and color.
+---------------------------------------------------------------------- Vertex ->

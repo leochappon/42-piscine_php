@@ -1,0 +1,34 @@
+<- Vector ----------------------------------------------------------------------
+This Class handles vectors with an origin ('orig') and a destination ('dest')
+obtained with the Class Vertex.
+
+
+The class provides the following methods :
+
+float magnitude() :
+Returns the norm of a vector.
+
+Vector normalize() :
+Normalizes a vector.
+
+Vector add( Vector $rhs ) :
+Adds 2 vectors.
+
+Vector sub( Vector $rhs ) :
+Substracts 2 vectors.
+
+Vector opposite() :
+Returns the opposite of a vector.
+
+Vector scalarProduct( $k ) :
+Returns the product of a vector with a scalar.
+
+float dotProduct( Vector $rhs ) :
+Returns the scalar product of 2 vectors.
+
+float cos( Vector $rhs ) :
+Returns the cosinus of the angle between 2 vectors.
+
+Vector crossProduct( Vector $rhs ) :
+Returns the cross product of 2 vectors.
+---------------------------------------------------------------------- Vector ->
